@@ -11,6 +11,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer 
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 #creating instance of the class
 app=Flask(__name__)
