@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Email Spam Detector</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/iconic/css/material-design-iconic-font.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="/" method="POST">
+				<span class="contact100-form-title">
+					Email Spam Detector
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter Subject">
+					<input class="input100" type="text" name="subject" placeholder="Subject">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter Email body">
+					<textarea class="input100" name="emailbody" placeholder="Email body"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Detect
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more">{{ prediction }}</div>
+		</div>
+	</div>
+
+
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+	 <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script> 
+
+</body>
+</html>
