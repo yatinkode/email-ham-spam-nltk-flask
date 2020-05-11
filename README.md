@@ -20,5 +20,9 @@ ls
 mkdir nltk_data
 python -m nltk.downloader
 ```
+
 Choose option d
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap4.jpg)
+
+Then write "all"
+![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap5.jpg)
