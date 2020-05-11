@@ -21,10 +21,19 @@ mkdir nltk_data
 python -m nltk.downloader
 ```
 
-Choose option d
+Choose option "d"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap4.jpg)
+
 
 Then write "all"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap5.jpg)
+
+
+Then choose option "c"
+
+![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap6.jpg)
+
+All nltk libraries will be downloaded in nltk_data folder. Checl with "ls" command
+
