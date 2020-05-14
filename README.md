@@ -5,7 +5,7 @@ Email Spam detector with Flask app
 
 https://emailspamdetector.herokuapp.com/
 
-Steps Taken:
+### Steps Taken:
 1) Reading Data 
 
 | __Column name__    | __Detail__                                                 |
@@ -27,13 +27,14 @@ Steps Taken:
 13) Vectorizing with tfidf_vectorizer.pkl and passing it to model pickle model_email_yat.pkl
 14) Taking output from model pickle and displaying it on the form as output
 
-Adding NLTK into heroku server
 
-Go to you app page. Click on "More" on right hand side. Then select "Run console"
+### Adding NLTK into heroku server
+
+1. Go to you app page. Click on "More" on right hand side. Then select "Run console"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap2.jpg)
 
-Write bash and Run
+2. Write bash and Run
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap3.jpg)
 
@@ -45,22 +46,22 @@ mkdir nltk_data
 python -m nltk.downloader
 ```
 
-Choose option d
+3. Choose option d
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap4.jpg)
 
 
-Then write "all"
+4. Then write "all"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap5.jpg)
 
 
-Then choose "c"
+5. Then choose "c"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap6.jpg)
 
 
-All nltk libraries will be downloaded in nltk_data folder in ypur app repository in heroku. Use "ls" command to check for this folder.
+6. All nltk libraries will be downloaded in nltk_data folder in ypur app repository in heroku. Use "ls" command to check for this folder.
 
 Note: You may have to carry out above steps again if you deploy a new version of the app
 
