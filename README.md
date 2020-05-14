@@ -5,6 +5,20 @@ Email Spam detector with Flask app
 
 https://emailspamdetector.herokuapp.com/
 
+Steps Taken:
+1) Reading Data 
+
+| __Column name__    | __Detail__                                                 |
+|--------------------|------------------------------------------------------------|
+| text               |  Email Content                                             |
+| spam               |  if mail is spam then 1, else 0                            |
+
+2) Tokenizing text into words
+3) Removing stopwords and punctuations
+4) Lemmatization (Using Wordnet Lemmatization)
+5) Vectorization (Using Tfidf Vectorization)
+6) Pickling the vectorization object ()
+
 Adding NLTK into heroku server
 
 Go to you app page. Click on "More" on right hand side. Then select "Run console"
