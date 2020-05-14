@@ -13,11 +13,19 @@ Steps Taken:
 | text               |  Email Content                                             |
 | spam               |  if mail is spam then 1, else 0                            |
 
-2) Tokenizing text into words
-3) Removing stopwords and punctuations
-4) Lemmatization (Using Wordnet Lemmatization)
-5) Vectorization (Using Tfidf Vectorization)
-6) Pickling the vectorization object ()
+2)  Tokenizing text into words
+3)  Removing stopwords and punctuations
+4)  Lemmatization (Using Wordnet Lemmatization)
+5)  Vectorization (Using Tfidf Vectorization)
+6)  Dividing data into train and test data
+7)  Applying Random forest by choosing best hyperparameters
+8)  Pickling the model object (model_email_yat.pkl)
+9)  Pickling the vectorization object (tfidf_vectorizer.pkl)
+10) Creating HTML form for taking input
+11) Creating Flask App, rendering HTML form into it.
+12) Taking passed form inputs, tokenizing, removing stopwords and punctuations, lemmatizing
+13) Vectorizing with tfidf_vectorizer.pkl and passing it to model pickle model_email_yat.pkl
+14) Taking output from model pickle and displaying it on the form as output
 
 Adding NLTK into heroku server
 
