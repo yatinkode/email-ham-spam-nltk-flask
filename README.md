@@ -39,6 +39,7 @@ https://emailspamdetector.herokuapp.com/
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap3.jpg)
 
 
+3. Create directory nltk_data
 
 ```bash
 ls
@@ -46,22 +47,22 @@ mkdir nltk_data
 python -m nltk.downloader
 ```
 
-3. Choose option d
+4. Choose option d
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap4.jpg)
 
 
-4. Then write "all"
+5. Then write "all"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap5.jpg)
 
 
-5. Then choose "c"
+6. Then choose "c"
 
 ![data](https://github.com/yatinkode/email-ham-spam-nltk-flask/blob/master/images/cap6.jpg)
 
 
-6. All nltk libraries will be downloaded in nltk_data folder in ypur app repository in heroku. Use "ls" command to check for this folder.
+7. All nltk libraries will be downloaded in nltk_data folder in ypur app repository in heroku. Use "ls" command to check for this folder.
 
 Note: You may have to carry out above steps again if you deploy a new version of the app
 
